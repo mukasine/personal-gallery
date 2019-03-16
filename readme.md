@@ -71,4 +71,4 @@ get image by-id and filter by location doesn't work
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-Copyright (c) 2019 **Kayitare cynthia**
+Copyright (c) 2019 **mukasine marie claire**
