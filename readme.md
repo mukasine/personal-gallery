@@ -26,10 +26,7 @@ Gallery is a website application that shows different image. Users have to see p
 * Run the following command on the terminal: git clone https://github.com/mukasine/gallery.git 
 * type cd gallery on terminal
 
-## Activate virtual environment
-Activate virtual environment using python3.6 as default handler
 
-virtualenv -p /usr/bin/python3.6 venv && source venv/bin/activate
 ## Install dependancies
 Install dependancies that will create an environment for the app to run pip3 install -r requirements.txt
 
