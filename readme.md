@@ -66,8 +66,8 @@ get image by-id and filter by location doesn't work
 - Heroku for the deployment
 - Postgresql for the database
 ## Support and contact details
- * for any support please contact me on cyntkayitare@gmail.com or
- * phone:0788774039 
+ * for any support please contact me on mclaremukasine@gmail.com or
+ * phone:0782586013 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
