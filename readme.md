@@ -46,10 +46,15 @@ Create .env file and paste the following filling where appropriate:
 * PASSWORD = '<password>'
 * DEBUG = True
 
+## Run initial Migration
+python3.6 manage.py migrate
+python3.6 manage.py check
+python manage.py makemigrations photos
+python3.6 manage.py sqlmigrate photos 0001
+python3.6 manage.py migrate
+python3.6 manage.py runserver
+Open terminal on localhost:8000
 
-
-## Known bugs
-get image by-id and filter by location doesn't work
 
 ## Technologies used
 - Python 3.6
