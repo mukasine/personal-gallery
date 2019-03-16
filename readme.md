@@ -58,7 +58,13 @@ Open terminal on localhost:8000
 ## Known bugs
 get image by-id and filter by location doesn't work
 
-
+## Technologies used
+- Python 3.6
+- HTML for the structure
+- Bootstrap 4 for the design
+- JavaScript
+- Heroku for the deployment
+- Postgresql for the database
 ## Support and contact details
  * for any support please contact me on cyntkayitare@gmail.com or
  * phone:0788774039 
