@@ -12,10 +12,18 @@ Gallery is a website application that shows different image. Users have to see p
 
 3. user can click on copy link button and copy the link of the image.
 
+## Set Up and Installations
+* Prerequisites
+* Ubuntu Software
+* Python3.6
+* Postgres
+* python virtualenv
+* django==1.11
+* bootsrap
 
 
 ## Clone the Repo
-* Run the following command on the terminal: git clone https://github.com/KAYITARES/gallery.git 
+* Run the following command on the terminal: git clone https://github.com/mukasine/gallery.git 
 * type cd gallery on terminal
 
 ## Activate virtual environment
