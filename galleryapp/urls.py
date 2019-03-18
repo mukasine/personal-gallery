@@ -4,9 +4,9 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    url('^$',views.main_gallery,name = 'main_gallery'),
+    url('^$',views.main_gallery,name = 'index'),
     url(r'^location/(\d+)',views.location,name = 'location'),
-    url(r'^search/',views.search,name='search')
+    url(r'^search/',views.search,name='search_category')
 ]
 
 if settings.DEBUG:
