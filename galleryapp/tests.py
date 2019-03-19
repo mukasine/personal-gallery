@@ -8,9 +8,7 @@ class LocationTestClass(TestCase):
         self.location = Location(id = 1,name = 'Gasabo')
 
     #Testing instance
-    def test_instance(self):
-        self.assertTrue(isinstance(self.location,Location))
-
+    
     #testing the save method
     def save_save_method(self):
         self.james.save_location()
