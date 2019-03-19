@@ -3,6 +3,31 @@ from .models import Image, Location, categories
 
 # Create your tests here.
 
+class LocationTestClass(TestCase):
+    # Set up method
+    def setUp(self):
+        self.location = Location(id = 1,name = 'Gasabo')
+
+    #Testing instance
+  def test_instance(self):
+        self.assertTrue(isinstance(self.location,Location))  
+    #testing the save method
+    def save_save_method(self):
+        self.james.save_location()
+        self.Gasabo.save_location()
+        self.assertTrue(len(locations) > 0)
+
+    def test_update_method(self):
+        self.location.save_location()
+        self.location = Location.objects.filter(name = 'Gasabo').update(name = 'Kigali')
+        self.updated_location = Location.objects.get(name = 'Kigali')
+        self.assertEqual(self.updated_location.name,"Kigali")
+
+    def test_delete_method(self):
+        self.location.save_location()
+        self.location = Location.objects.get(id = 1)
+        self.location.delete_location()
+        self.assertTrue(len(Location.objects.all()) == 0)
 
 class ImageTestClass(TestCase):
     # Set up method
