@@ -4,12 +4,11 @@ from .models import Image,Location
 
 # Create your views here.
 
-
-def location(request,location):
+def main_gallery(request):
+    images = Image.all_images()
     locations = Location.objects.all()
-    selected_location = Location.objects.get(id = location)
-    images = Image.objects.filter(location = selected_location.id)
-    return render(request, 'location.html', {"location":selected_location,"locations":locations,"images":images})
+    return render(request, 'index.html', {"images":images,"locations":locations})
+
 
 def search(request):
     if 'category' in request.GET and request.GET["category"]:
