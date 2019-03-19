@@ -42,7 +42,10 @@ class Image(models.Model):
         self.delete()
 
     @classmethod
-    
+   def all_images(cls):
+        images = cls.objects.all()
+        return images
+ 
     @classmethod
     def search_by_category(cls,search_term):
         images = cls.objects.filter(categories__name__contains = search_term)
