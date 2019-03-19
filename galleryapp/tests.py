@@ -5,9 +5,7 @@ from .models import Image, Location, categories
 
 class LocationTestClass(TestCase):
     # Set up method
-    def setUp(self):
-        self.location = Location(id = 1,name = 'Gasabo')
-
+    
     #Testing instance
   def test_instance(self):
         self.assertTrue(isinstance(self.location,Location))  
@@ -77,8 +75,8 @@ class ImageTestClass(TestCase):
 
 class CategoriesTestClass(TestCase):
     # Set up method
-    def setUp(self):
-        self.category = categories(id = 1,name = 'test')
+   def setUp(self):
+        self.category = categories(id = 1,name = 'test') 
 
     #Testing instance
     def test_instance(self):
