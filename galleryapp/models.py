@@ -55,9 +55,9 @@ class Image(models.Model):
         else:
             return images
     @classmethod
-    def get_image_by_id(cls,id):
-        image = cls.objects.get(id = id)
-        return image
-
-    @classmethod
     
+    @classmethod
+    def filter_by_location(cls,search_term):
+        location = Location.objects.get(name = search_term)
+        images = cls.objects.filter(location = location)
+        return images
