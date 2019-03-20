@@ -85,7 +85,7 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': config('DBNAME'),
-        'USER':config('USER'),
+        'USER':config('DBUSER'),
         'PASSWORD':config('PASSWORD')
         
     }
